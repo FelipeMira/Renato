@@ -19,14 +19,14 @@ ul {
   z-index: 1;
   top: 0;
   left: 0;
-  width: 100px;
+  width: 6vh;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
 .nav__list {
   display: flex;
   flex-flow: column wrap;
-  height: 85vh;
+  height: 95vh;
   -webkit-transform: translate(0, -100%);
           transform: translate(0, -100%);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
