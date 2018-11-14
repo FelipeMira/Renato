@@ -16,7 +16,7 @@ ul {
 
 .nav {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   left: 0;
   width: 6vh;
@@ -61,7 +61,7 @@ ul {
     width: 70px;
   }
   .nav__list {
-    height: 94vh;
+    height: 95vh;
   }
 }
 
@@ -241,7 +241,7 @@ ul {
 }
 
 .navbar {
-  z-index: 0;
+  z-index: 1;
   height: 5vh;
   margin-bottom: 0px !important;
   border: 1px solid transparent;
@@ -254,7 +254,6 @@ ul {
       padding: 10vh 25vw;
   }
   .navbar {
-    z-index: 0;
     height: 5vh;
     margin-bottom: 0px !important;
     border: 1px solid transparent;

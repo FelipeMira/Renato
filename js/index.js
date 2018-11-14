@@ -36,7 +36,9 @@ var scrollFx = function() {
 var scrolly = function(e) {
   e.preventDefault();
   var target = this.hash;
+  console.log(target);
   var $target = $(target);
+  console.log($target);
 
   $('html, body').stop().animate({
       'scrollTop': $target.offset().top
@@ -50,6 +52,7 @@ var init = function() {
   window.addEventListener('scroll', scrollFx, false);
   window.addEventListener('load', scrollFx, false);
   $('a[href^="#"]').on('click',scrolly);
+  $('svg[href^="#"]').on('click',scrolly);
 };
 
 doc.on('ready', init);
