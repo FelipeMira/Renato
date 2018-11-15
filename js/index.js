@@ -51,7 +51,7 @@ var init = function() {
   burger.addEventListener('click', openMenu, false);
   window.addEventListener('scroll', scrollFx, false);
   window.addEventListener('load', scrollFx, false);
-  $('a[href^="#"]').on('click',scrolly);
+  $('a[href^="#m"]').on('click',scrolly);
 };
 
 $('#cpf').mask('999.999.999-99');
