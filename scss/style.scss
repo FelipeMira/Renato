@@ -260,7 +260,7 @@ ul {
     width: 65px;
     transition: $ease;
     transform: rotate(0);
-  
+    
     &:hover {
       transform: rotate(180deg) scale(1.1);
     }
